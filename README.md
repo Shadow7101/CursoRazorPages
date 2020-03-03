@@ -24,5 +24,10 @@ $ install-package **Microsoft.AspNetCore.MVC**
 ```
 6) Selecione os projetos **Taste.Web** e **Taste.DataAccess** e insira o seguinte pacote em **Nuget for Solution**
 ```sh
-$ install-package **Stripe.net**
+$ install-package Stripe.net
 ```
+7) Mova a pasta `Migrations` de **Taste.Web** para **Taste.DataAccess** e exclua a pasta de **Taste.Web**.
+8) Exclua o conteudo da pasta `Migrations` do projeto **Taste.DataAccess**.
+9) Mova a classe `ApplicationDbContext` da pasta `Data` **Taste.Web** para **Taste.DataAccess** 
+10) Delete a pasta Data de **Taste.Web** 
+11) Corrija o namespace de `ApplicationDbContext` 
