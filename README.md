@@ -36,3 +36,13 @@ $ install-package Stripe.net
 14) De  **Taste.Models** crie a pasta `ViewModels`
 15) Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
 16) Acrescentando opção de usar **MVC** no projeto.
+17) Acrescendando [jqueryui.com](https://jqueryui.com/) ao projeto.
+18) Acrescendando [datatables.net](http://datatables.net/) ao projeto.
+19) Acrescendando [fontawesome.com](https://fontawesome.com/) ao projeto.
+19) Acrescendando [Toastr](https://codeseven.github.io/toastr/) ao projeto. 
+- Tem o CDN do Toastr [aqui](https://cdnjs.com/libraries/toastr.js/latest).
+20) Acrescendando [Sweet Alert](https://sweetalert.js.org/guides/#installation) ao projeto. 
+21) Adcionando o [Tiny Docs](https://www.tiny.cloud/docs/demo/full-featured/) ao projeto.
+- Tem o CDM do Tiny Docs [aqui](https://www.tiny.cloud/my-account/dashboard).
+22) Adicionando [jquery.timepicker](http://www.jonthornton.com/jquery-timepicker/) ao projeto.
+
