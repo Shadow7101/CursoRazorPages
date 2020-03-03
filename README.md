@@ -18,3 +18,11 @@ $ install-package Microsoft.AspNetCore.Identity.EntityFrameworkCore
 ```sh
 $ install-package Microsoft.EntityFrameworkCore.SqlServer
 ```
+5) Selecione os projetos **Taste.Models** e **Taste.DataAccess** e insira o seguinte pacote em **Nuget for Solution**
+```sh
+$ install-package **Microsoft.AspNetCore.MVC**
+```
+6) Selecione os projetos **Taste.Web** e **Taste.DataAccess** e insira o seguinte pacote em **Nuget for Solution**
+```sh
+$ install-package **Stripe.net**
+```
