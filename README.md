@@ -10,3 +10,11 @@ $ install-package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
 ```sh
 $ services.AddRazorPages().AddRazorRuntimeCompilation();
 ```
+3) Selecione os projetos **Taste.Models** e **Taste.DataAccess** e insira o seguinte pacote em **Nuget for Solution**
+```sh
+$ install-package Microsoft.AspNetCore.Identity.EntityFrameworkCore
+```
+4) Selecione somente o projeto **Taste.DataAccess** e insira o seguinte pacote em **Nuget**
+```sh
+$ install-package Microsoft.EntityFrameworkCore.SqlServer
+```
