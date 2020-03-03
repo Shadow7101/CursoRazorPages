@@ -4,5 +4,5 @@ Arquivos do curso de RazorPage (Udemy) [https://www.udemy.com/course/advanced-as
 #### Pré-requisitos
 Pacote nuget utilizado:
 ```sh
-$ install-package Microsoft.AspNetCore.Mvc.Razor.ViewCompilation
+$ install-package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
 ```
