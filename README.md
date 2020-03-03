@@ -31,4 +31,6 @@ $ install-package Stripe.net
 9) Mova a classe `ApplicationDbContext` da pasta `Data` **Taste.Web** para **Taste.DataAccess**. 
 10) Delete a pasta Data de **Taste.Web**. 
 11) Corrija o namespace de `ApplicationDbContext`. 
-12) Crie em  **Taste.DataAccess** a pasta `Initialize`.
+12) Crie em  **Taste.DataAccess** as pastas `Initialize` e `Repository` e dentro de `Repository` a pasta `IRepository`.
+13) De  **Taste.DataAccess** exclua o arquivo `Class1.cs`
+14) De  **Taste.Models** crie a pasta `ViewModels`
