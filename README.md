@@ -75,8 +75,8 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 - [jqueryui.com](https://jqueryui.com/).
 - [datatables.net](http://datatables.net/).
 - [fontawesome.com](https://fontawesome.com/).
-- [Toastr](https://codeseven.github.io/toastr/)[CDN](https://cdnjs.com/libraries/toastr.js/latest).
+- [Toastr](https://codeseven.github.io/toastr/)([CDN](https://cdnjs.com/libraries/toastr.js/latest)).
 - [Sweet Alert](https://sweetalert.js.org/guides/#installation). 
-- [Tiny Docs](https://www.tiny.cloud/docs/demo/full-featured/) [CDN](https://www.tiny.cloud/my-account/dashboard).
+- [Tiny Docs](https://www.tiny.cloud/docs/demo/full-featured/) ([CDN](https://www.tiny.cloud/my-account/dashboard)).
 - [jquery.timepicker](http://www.jonthornton.com/jquery-timepicker/).
 
