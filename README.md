@@ -34,4 +34,4 @@ $ install-package Stripe.net
 12) Crie em  **Taste.DataAccess** as pastas `Initialize` e `Repository` e dentro de `Repository` a pasta `IRepository`.
 13) De  **Taste.DataAccess** exclua o arquivo `Class1.cs`
 14) De  **Taste.Models** crie a pasta `ViewModels`
-15) Acesse o site [Bootswatch](https://bootswatch.com) e escplha um tema, e faça o downlaod de `bootstrap.css` desse tema.
+15) Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
