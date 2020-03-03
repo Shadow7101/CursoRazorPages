@@ -3,27 +3,27 @@ Arquivos do curso de RazorPage (Udemy) [https://www.udemy.com/course/advanced-as
 
 #### Processo
 1) Adcione o pacote abaixo.
-```sh
+```powershell
 $ install-package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
 ```
 2) Altere o arquivo **startup.cs** para conter a linha abaixo em **ConfigureServices**.
-```sh
+```powershell
 $ services.AddRazorPages().AddRazorRuntimeCompilation();
 ```
 3) Selecione os projetos **Taste.Models** e **Taste.DataAccess** e insira o seguinte pacote em **Nuget for Solution**.
-```sh
+```powershell
 $ install-package Microsoft.AspNetCore.Identity.EntityFrameworkCore
 ```
 4) Selecione somente o projeto **Taste.DataAccess** e insira o seguinte pacote em **Nuget**.
-```sh
+```powershell
 $ install-package Microsoft.EntityFrameworkCore.SqlServer
 ```
 5) Selecione os projetos **Taste.Models** e **Taste.DataAccess** e insira o seguinte pacote em **Nuget for Solution**.
-```sh
+```powershell
 $ install-package Microsoft.AspNetCore.MVC
 ```
 6) Selecione os projetos **Taste.Web** e **Taste.DataAccess** e insira o seguinte pacote em **Nuget for Solution**.
-```sh
+```powershell
 $ install-package Stripe.net
 ```
 7) Mova a pasta `Migrations` de **Taste.Web** para **Taste.DataAccess** e exclua a pasta de **Taste.Web**.
@@ -37,7 +37,7 @@ $ install-package Stripe.net
 15) Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
 16) Acrescentando opção de usar **MVC** no projeto.
 - Altere o `startup.cs` na área de **ConfigureServices** para que fique da seguinte forma:
-```sh
+```c#
 public void ConfigureServices(IServiceCollection services)
 {
     services.AddDbContext<ApplicationDbContext>(options =>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
@@ -47,7 +47,7 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 - Altere o `startup.cs` na área de **Configure** para que fique da seguinte forma:
-```sh
+```c#
 public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 {
     if (env.IsDevelopment())
@@ -81,7 +81,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 - [jquery.timepicker](http://www.jonthornton.com/jquery-timepicker/).
 
 Para acrescentar os plugins, acrescente os seguintes `links` CSS no topo do arquivo **_Layout.cshtml**
-```sh
+```html
 <!--CSS:-->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" />        
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />        
@@ -90,7 +90,7 @@ Para acrescentar os plugins, acrescente os seguintes `links` CSS no topo do arqu
 ```
 
 Acrescemte o seguintes `links` JS no rodapé do arquivo **_Layout.cshtml**
-```sh
+```html
 <!--JS-->
 <script src="https://kit.fontawesome.com/e19c476714.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.4.10/cleave.min.js"></script>
@@ -105,7 +105,7 @@ Acrescemte o seguintes `links` JS no rodapé do arquivo **_Layout.cshtml**
 ```
 
 18) Altere o arquivo **site.css** para que fique da seguinte forma:
-```sh
+```css
 a.navbar-brand {
     white-space: normal;
     text-align: center;
