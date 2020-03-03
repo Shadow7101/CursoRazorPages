@@ -35,3 +35,4 @@ $ install-package Stripe.net
 13) De  **Taste.DataAccess** exclua o arquivo `Class1.cs`
 14) De  **Taste.Models** crie a pasta `ViewModels`
 15) Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
+16) Acrescentando opção de usar **MVC** no projeto.
