@@ -36,6 +36,42 @@ $ install-package Stripe.net
 14) De  **Taste.Models** crie a pasta `ViewModels`
 15) Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
 16) Acrescentando opção de usar **MVC** no projeto.
+- Altere o `startup.cs` na área de **ConfigureServices** para que fique da seguinte forma:
+```sh
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddDbContext<ApplicationDbContext>(options =>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+    services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
+    services.AddMvc(options => options.EnableEndpointRouting = false).SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
+    services.AddControllersWithViews().AddRazorRuntimeCompilation();
+}
+```
+- Altere o `startup.cs` na área de **Configure** para que fique da seguinte forma:
+```sh
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if (env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+        app.UseDatabaseErrorPage();
+    }
+    else
+    {
+        app.UseExceptionHandler("/Error");
+        // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+        app.UseHsts();
+    }
+
+    app.UseHttpsRedirection();
+    app.UseStaticFiles();
+
+    app.UseAuthentication();
+    app.UseAuthorization();
+
+    app.UseMvc();
+}
+```
+
 17) Acrescendando [jqueryui.com](https://jqueryui.com/) ao projeto.
 18) Acrescendando [datatables.net](http://datatables.net/) ao projeto.
 19) Acrescendando [fontawesome.com](https://fontawesome.com/) ao projeto.
