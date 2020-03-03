@@ -71,14 +71,14 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     app.UseMvc();
 }
 ```
-
-17) Acrescendando [jqueryui.com](https://jqueryui.com/) ao projeto.
-18) Acrescendando [datatables.net](http://datatables.net/) ao projeto.
-19) Acrescendando [fontawesome.com](https://fontawesome.com/) ao projeto.
-19) Acrescendando [Toastr](https://codeseven.github.io/toastr/) ao projeto. 
-- Tem o CDN do Toastr [aqui](https://cdnjs.com/libraries/toastr.js/latest).
-20) Acrescendando [Sweet Alert](https://sweetalert.js.org/guides/#installation) ao projeto. 
-21) Adcionando o [Tiny Docs](https://www.tiny.cloud/docs/demo/full-featured/) ao projeto.
-- Tem o CDM do Tiny Docs [aqui](https://www.tiny.cloud/my-account/dashboard).
-22) Adicionando [jquery.timepicker](http://www.jonthornton.com/jquery-timepicker/) ao projeto.
+17) Acrescentnado os seguintes plugins ao projeto:
+- [jqueryui.com](https://jqueryui.com/).
+- [datatables.net](http://datatables.net/).
+- [fontawesome.com](https://fontawesome.com/).
+- [Toastr](https://codeseven.github.io/toastr/). 
+-- Tem o CDN do Toastr [aqui](https://cdnjs.com/libraries/toastr.js/latest).
+- [Sweet Alert](https://sweetalert.js.org/guides/#installation). 
+- [Tiny Docs](https://www.tiny.cloud/docs/demo/full-featured/).
+-- Tem o CDM do Tiny Docs [aqui](https://www.tiny.cloud/my-account/dashboard).
+- [jquery.timepicker](http://www.jonthornton.com/jquery-timepicker/).
 
