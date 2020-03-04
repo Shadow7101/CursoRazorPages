@@ -307,9 +307,9 @@ dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
 ```
 
 Links uteis:
-- (Learn Entity Framework Core)[https://www.learnentityframeworkcore.com/]
-- (Microsoft: Introdução ao Entity Framework 6 Code First usando o MVC 5)[https://docs.microsoft.com/pt-br/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/]
-- (Stackoverflow: Entity Framework rollback and remove bad migration)[https://stackoverflow.com/questions/22680446/entity-framework-rollback-and-remove-bad-migration]
-- (Devmedia: Criando bases de dados com Migrations)[https://www.devmedia.com.br/entity-framework-core-criando-bases-de-dados-com-migrations/36776]
-- (Referência de ferramentas de Entity Framework Core-CLI .NET)[https://docs.microsoft.com/pt-br/ef/core/miscellaneous/cli/dotnet]
+- [Learn Entity Framework Core](https://www.learnentityframeworkcore.com/)
+- [Microsoft: Introdução ao Entity Framework 6 Code First usando o MVC 5](https://docs.microsoft.com/pt-br/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/)
+- [Stackoverflow: Entity Framework rollback and remove bad migration](https://stackoverflow.com/questions/22680446/entity-framework-rollback-and-remove-bad-migration)
+- [Devmedia: Criando bases de dados com Migrations](https://www.devmedia.com.br/entity-framework-core-criando-bases-de-dados-com-migrations/36776)
+- [Referência de ferramentas de Entity Framework Core-CLI .NET](https://docs.microsoft.com/pt-br/ef/core/miscellaneous/cli/dotnet)
 
