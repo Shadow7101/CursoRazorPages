@@ -5,17 +5,22 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-FrontEnd", "01-FrontEnd", "{948ED020-6098-466D-AD34-186C84074986}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taste.Web", "01-FrontEnd\Taste.Web\Taste.Web.csproj", "{62D6AC7E-65A8-42BD-BC11-7118477BB755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taste.Web", "01-FrontEnd\Taste.Web\Taste.Web.csproj", "{62D6AC7E-65A8-42BD-BC11-7118477BB755}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Business", "02-Business", "{648DA0D3-0216-4071-BE5B-942234F6E5F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taste.Models", "02-Business\Taste.Models\Taste.Models.csproj", "{7A3D08E6-4A10-4FFC-9AED-FDD6B9945117}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taste.Models", "02-Business\Taste.Models\Taste.Models.csproj", "{7A3D08E6-4A10-4FFC-9AED-FDD6B9945117}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Infrastructure", "03-Infrastructure", "{4078253E-9207-493B-984C-04DFB63B2CBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taste.DataAccess", "03-Infrastructure\Taste.DataAccess\Taste.DataAccess.csproj", "{A05470AF-60DC-4A23-81B4-1112222682E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taste.DataAccess", "03-Infrastructure\Taste.DataAccess\Taste.DataAccess.csproj", "{A05470AF-60DC-4A23-81B4-1112222682E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taste.Utility", "02-Business\Taste.Utility\Taste.Utility.csproj", "{4D1DF840-440E-4F4B-B1E2-452E53C84E5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taste.Utility", "02-Business\Taste.Utility\Taste.Utility.csproj", "{4D1DF840-440E-4F4B-B1E2-452E53C84E5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Artefatos", "00-Artefatos", "{3F593C5C-45E3-4F28-9731-8CAF11193229}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

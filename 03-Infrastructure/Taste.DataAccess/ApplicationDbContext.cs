@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Taste.Models.Entities;
 
 namespace Taste.DataAccess
 {
@@ -12,5 +10,7 @@ namespace Taste.DataAccess
             : base(options)
         {
         }
+
+        public DbSet<Category> Category { get; set; }
     }
 }

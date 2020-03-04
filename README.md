@@ -262,6 +262,26 @@ body {
 ```
 19) Va no site do (Professor)[https://bhrugen.com/] e baixe os recursos necessários.
 
-> Os passos acima cobrem do cápitulo 1 ao 4
+> Os passos acima cobrem do capítulo 1 ao 4
 > o próximo cápitlo ser Repositório
 > 03/03/2020
+
+
+### Capítulo 5
+> 04/03/2020
+
+Trabalhando com entidades, repositórios e a metodologia Unit Of Work.
+
+- Criada das as interfaces e classes do DDD.
+- Criada a interface e classe UnitOfWork
+- Criada a classe/tabela Category de exemplo.
+- Criado migration
+- Atualizado o banco de dados
+
+Comando de migration do Visual Studio
+```PowerShell
+add-migration AddIdentityAndCategory
+update-database
+drop-database
+remove-migration
+```

@@ -5,16 +5,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200304220436_AddIdentityAndCategory.cs" />
+    <Compile Remove="Migrations\20200304220436_AddIdentityAndCategory.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Stripe.net" Version="34.26.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Initialize\" />
-    <Folder Include="Migrations\" />
-    <Folder Include="Repository\IRepository\" />
+    <ProjectReference Include="..\..\02-Business\Taste.Models\Taste.Models.csproj" />
   </ItemGroup>
 
 </Project>
