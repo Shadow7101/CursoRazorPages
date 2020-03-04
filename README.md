@@ -262,12 +262,12 @@ body {
 ```
 19) Va no site do (Professor)[https://bhrugen.com/] e baixe os recursos necessários.
 
-> Os passos acima cobrem do capítulo 1 ao 4
+> Os passos acima cobrem do capítulo 1 ao 3
 > o próximo cápitlo ser Repositório
 > 03/03/2020
 
 
-### Capítulo 5
+### Capítulo 4
 > 04/03/2020
 
 Trabalhando com entidades, repositórios e a metodologia Unit Of Work.
