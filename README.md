@@ -16,6 +16,9 @@ Veja [[aqui](https://github.com/Shadow7101/CursoRazorPages/blob/master/01-FrontE
 
 #### Configurando ambiente
 
+> Se considerarmos que você esta usando o Visual Studio, é necessário abrir o **Package Manage Console**, se você esta usando o Visual Studio Code, basta abrir o **TERMINAL**.
+
+
 1. Adcione o seguinte pacote em  **Taste.Web**.
 ```powershell
 $ install-package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
