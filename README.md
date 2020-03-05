@@ -16,41 +16,47 @@ Criando projetos:
 
 ### Capítulo 2
 
-#### Configurando ambiente
+Configurando ambiente:
 
 > Se considerarmos que você esta usando o Visual Studio, é necessário abrir o **Package Manage Console**, se você esta usando o Visual Studio Code, basta abrir o **TERMINAL**.
 
+- Se você usando **Visual Studio Code** [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki/Configurando-pacotes-do-projeto-VSCode)] você encontra um script que executa as ações necessárias.
+- Se você esta usando o Visual Studio, clique [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki/Configurando-pacotes-no-VisualStudio)] e siga o passo a passo com as ações necessárias.
 
-1. Adcione o seguinte pacote em  **Taste.Web**.
-```powershell
-$ install-package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
+* Na raiz do projeto **Taste.DataAccess** crie uma nova classe chamada **ApplicationDbContext.cs** e deixe essa classe com a aparencia abaixo:
+
+```c#
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace Taste.DataAccess
+{
+    public class ApplicationDbContext : IdentityDbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
+        {
+
+        }
+
+    }
+}
+
 ```
-1) Selecione os projetos **Taste.Models** e **Taste.DataAccess** e insira o seguinte pacote em **Nuget for Solution**.
-```powershell
-$ install-package Microsoft.AspNetCore.Identity.EntityFrameworkCore
-```
-4) Selecione somente o projeto **Taste.DataAccess** e insira o seguinte pacote em **Nuget**.
-```powershell
-$ install-package Microsoft.EntityFrameworkCore.SqlServer
-```
-5) Selecione os projetos **Taste.Models** e **Taste.DataAccess** e insira o seguinte pacote em **Nuget for Solution**.
-```powershell
-$ install-package Microsoft.AspNetCore.MVC
-```
-6) Selecione os projetos **Taste.Web** e **Taste.DataAccess** e insira o seguinte pacote em **Nuget for Solution**.
-```powershell
-$ install-package Stripe.net
-```
-7) Mova a pasta `Migrations` de **Taste.Web** para **Taste.DataAccess** e exclua a pasta de **Taste.Web**.
-8) Exclua o conteudo da pasta `Migrations` do projeto **Taste.DataAccess**.
-9) Mova a classe `ApplicationDbContext` da pasta `Data` **Taste.Web** para **Taste.DataAccess**. 
-10) Delete a pasta Data de **Taste.Web**. 
-11) Corrija o namespace de `ApplicationDbContext`. 
-12) Crie em  **Taste.DataAccess** as pastas `Initialize` e `Repository` e dentro de `Repository` a pasta `IRepository`.
-13) De  **Taste.DataAccess** exclua o arquivo `Class1.cs`
-14) De  **Taste.Models** crie a pasta `ViewModels`
-15) Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
-16) Acrescentando opção de usar **MVC** no projeto.
+
+
+
+
+
+1) Mova a pasta `Migrations` de **Taste.Web** para **Taste.DataAccess** e exclua a pasta de **Taste.Web**.
+2) Exclua o conteudo da pasta `Migrations` do projeto **Taste.DataAccess**.
+3) Mova a classe `ApplicationDbContext` da pasta `Data` **Taste.Web** para **Taste.DataAccess**. 
+4)  Delete a pasta Data de **Taste.Web**. 
+5)  Corrija o namespace de `ApplicationDbContext`. 
+6)  Crie em  **Taste.DataAccess** as pastas `Initialize` e `Repository` e dentro de `Repository` a pasta `IRepository`.
+7)  De  **Taste.DataAccess** exclua o arquivo `Class1.cs`
+8)  De  **Taste.Models** crie a pasta `ViewModels`
+9)  Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
+10) Acrescentando opção de usar **MVC** no projeto.
 - Altere o `startup.cs` na área de **ConfigureServices** para que fique da seguinte forma:
 ```c#
 public void ConfigureServices(IServiceCollection services)
