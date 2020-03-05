@@ -12,7 +12,9 @@ Criando projetos:
 
 Veja [[aqui](https://github.com/Shadow7101/CursoRazorPages/blob/master/01-FrontEnd/Taste.Web/wwwroot/Images/documentos/arquitetura.PNG)] como ficou a arquitetura.
 
-Configurando ambiente:
+### Capítulo 2
+
+#### Configurando ambiente
 
 1. Adcione o seguinte pacote em  **Taste.Web**.
 ```powershell
