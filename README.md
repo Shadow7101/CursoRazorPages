@@ -113,12 +113,12 @@ Referenciando os projetos:
 
  As referências devem ser criadas da seguinte forma:
  
-| No projeto abaixo:| Taste.Web  | Taste.Application  | Taste.DataAccess | Taste.Domain |             |
-|-------------------|------------|--------------------|------------------|--------------|-------------|
-| Taste.Web         |            |         X          |        X         |      X       |             |
-| Taste.Application |            |                    |        X         |      X       |             |
-| Taste.DataAccess  |            |                    |                  |      X       |             |
-| Taste.Domain      |            |                    |                  |              |             |
+| No projeto abaixo:| Taste.Web  | Taste.Application  | Taste.DataAccess | Taste.Domain |
+|-------------------|------------|--------------------|------------------|--------------|
+| Taste.Web         |            |         X          |        X         |      X       |
+| Taste.Application |            |                    |        X         |      X       |
+| Taste.DataAccess  |            |                    |                  |      X       |
+| Taste.Domain      |            |                    |                  |              |
 
 
 
