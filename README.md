@@ -119,7 +119,7 @@ Referenciando os projetos:
 | Taste.Application |            |                    |        X         |      X       |             |
 | Taste.DataAccess  |            |                    |                  |      X       |             |
 | Taste.Domain      |            |                    |                  |              |             |
-|-------------------|------------|--------------------|------------------|--------------|-------------|
+
 
 
 9)  Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
