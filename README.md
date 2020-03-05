@@ -120,7 +120,12 @@ Referenciando os projetos:
 | Taste.DataAccess  |            |                    |                  |      X       |
 | Taste.Domain      |            |                    |                  |              |
 
+- Se você esta usando ***Visual Studio Code*** criei um script [aqui] para acrescentar as referências nos projetos conforme a tabela.
+- Se você esta usando ***Visual Studio*** siga o passo a passo conforme documento neste [link] para adicionar as referencias.
 
+### Passo 7 
+
+Ajuste do CSS do front-end.
 
 9)  Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
 17) Acrescentando os seguintes plugins ao projeto:
