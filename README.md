@@ -121,9 +121,8 @@ Referenciando os projetos:
 | Taste.Domain      |            |                    |                  |              |
 
 - Se você esta usando ***Visual Studio Code*** criei um script [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki/Criando-Refer%C3%AAncia-entre-projetos)] para acrescentar as referências nos projetos conforme a tabela.
-- Se você esta usando ***Visual Studio*** siga o passo a passo conforme documento neste [link] para adicionar as referencias.
-- Corrija a referencia no arquivo ***Startup.cs*** removendo ***Taste.Web.Data*** e adicionando a referência para ***Taste.DataAccess***.  
-- Corrija a referência no arquivo ***\Taste.Web\Pages\_ViewImports.cshtml*** removendo ***Taste.Web.Data*** e adicionando a referência para ***Taste.DataAccess***.  
+-Após adicionar as referências corrija a referencia no arquivo ***Startup.cs*** removendo ***Taste.Web.Data*** e adicionando a referência para ***Taste.DataAccess***.  
+- Em seguida corrija a referência no arquivo ***\Taste.Web\Pages\_ViewImports.cshtml*** removendo ***Taste.Web.Data*** e adicionando a referência para ***Taste.DataAccess***.  
 
 ### Passo 7 
 
