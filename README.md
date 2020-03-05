@@ -1,10 +1,14 @@
+
 # CursoRazorPages
-Arquivos do curso de (RazorPage)[https://bhrugen.com/] da (Udemy)[https://www.udemy.com/course/advanced-aspnet-core-3-razor-pages].
+
+Arquivos do curso de [[RazorPage](https://bhrugen.com/)] da [[Udemy](https://www.udemy.com/course/advanced-aspnet-core-3-razor-pages)].
+
+## Anotações do curso
 
 ### Capítulo 1
 
 Criando projetos:
-> O sistema esta seguindo a arquitetura DDD onde o sistema fica separado em camadas, considerando a camada de FrontEnd (01-FrontEnd), onde teremos o projeto Web, geralmente com o no da Solução, seguido de Web (exemplo Taste.Web)
+> O sistema esta seguindo a arquitetura **DDD** onde o sistema fica separado em camadas, considerando a camada de FrontEnd (***01-FrontEnd***), onde teremos o projeto Web, geralmente com o no da Solução, seguido de Web (exemplo ***Taste.Web***).
 
 
 
