@@ -21,9 +21,8 @@ Configurando ambiente:
 > Se considerarmos que você esta usando o Visual Studio, é necessário abrir o **Package Manage Console**, se você esta usando o Visual Studio Code, basta abrir o **TERMINAL**.
 
 - Se você usando **Visual Studio Code** [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki/Configurando-pacotes-do-projeto-VSCode)] você encontra um script que executa as ações necessárias.
-- Se você esta usando o Visual Studio, clique [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki/Configurando-pacotes-no-VisualStudio)] e siga o passo a passo com as ações necessárias.
-
-* Na raiz do projeto **Taste.DataAccess** crie uma nova classe chamada **ApplicationDbContext.cs** e deixe essa classe com a aparencia abaixo:
+- Se você esta usando o **Visual Studio**, clique [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki/Configurando-pacotes-no-VisualStudio)] e siga o passo a passo com as ações necessárias.
+- Na raiz do projeto **Taste.DataAccess** crie uma nova classe chamada **ApplicationDbContext.cs** e deixe essa classe com a aparencia abaixo:
 
 ```c#
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
