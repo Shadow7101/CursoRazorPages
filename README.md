@@ -104,7 +104,7 @@ Acrescemte o seguintes `links` JS no rodapé do arquivo **_Layout.cshtml**
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.js"></script>  
 ```
 
-18) Altere o arquivo **site.css** para que fique como o (neste link)[https://github.com/Shadow7101/CursoRazorPages/wiki/site.css-(Cap%C3%ADtulo-3)].
+18) Altere o arquivo **site.css** para que fique como o neste link:https://github.com/Shadow7101/CursoRazorPages/wiki/site.css-(Cap%C3%ADtulo-3).
 
 19) Va no site do (Professor)[https://bhrugen.com/] e baixe os recursos necessários.
 
