@@ -5,23 +5,46 @@ Arquivos do curso de [[RazorPage](https://bhrugen.com/)] da [[Udemy](https://www
 
 ## Anotações do curso
 
-### Capítulo 1
+### Parte 1
 
 Criando projetos:
+
 > O sistema esta seguindo a arquitetura **DDD** onde o sistema fica separado em camadas, considerando a camada de FrontEnd (***01-FrontEnd***), onde teremos o projeto Web, geralmente com o no da Solução, seguido de Web (exemplo ***Taste.Web***).
 
 - Veja [[aqui](https://github.com/Shadow7101/CursoRazorPages/blob/master/01-FrontEnd/Taste.Web/wwwroot/Images/documentos/arquitetura.PNG)] como ficou a arquitetura.
 - Se você esta usando ***Visual Studio Code*** pegue [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki/Criando-projeto-no-Visual-Studio-Code)] os comandos de ***Terminal*** para criar seu projeto.
 - Se você não esta usando o nosso ***VS Code***, da uma boa olhada na arquitetura e exclua as classes **Class1.cs** que são criadas automaticamente para os projetos do tipo **classlibrary**.
 
-### Capítulo 2
+### Parte 2
 
-Configurando ambiente:
+Corrigindo a versão do framework dos projetos:
+
+> Quando criamos projetos pela linha de comando (ou não) nem sempre o dotnet cria todos os projetos apontando para o mesmo framework, sendo assim se faz necessário abrir o **arquivo de projeto** de todos os projetos e checar para **qual framework** este arquivo esta apontando, minha preferencia é o último framework estavel, veja o modelo abaixo:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
+```
+
+### Parte 3
+
+Adicionando referências as bibliotecas nos projetos:
 
 > Se considerarmos que você esta usando o Visual Studio, é necessário abrir o **Package Manage Console**, se você esta usando o Visual Studio Code, basta abrir o **TERMINAL**.
 
 - Se você usando **Visual Studio Code** [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki/Configurando-pacotes-do-projeto-VSCode)] você encontra um script que executa as ações necessárias.
 - Se você esta usando o **Visual Studio**, clique [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki/Configurando-pacotes-no-VisualStudio)] e siga o passo a passo com as ações necessárias.
+
+
+### Parte 4
+
+Criando o contexto de acesso a dados do projeto:
+
 - Na raiz do projeto **Taste.DataAccess** crie uma nova classe chamada **ApplicationDbContext.cs** e deixe essa classe com a aparencia abaixo:
 
 ```c#
@@ -42,20 +65,10 @@ namespace Taste.DataAccess
 
 ```
 
+### Parte 5
 
+Ajustando arquivo **startup.cs** a camada de frontend:
 
-
-
-1) Mova a pasta `Migrations` de **Taste.Web** para **Taste.DataAccess** e exclua a pasta de **Taste.Web**.
-2) Exclua o conteudo da pasta `Migrations` do projeto **Taste.DataAccess**.
-3) Mova a classe `ApplicationDbContext` da pasta `Data` **Taste.Web** para **Taste.DataAccess**. 
-4)  Delete a pasta Data de **Taste.Web**. 
-5)  Corrija o namespace de `ApplicationDbContext`. 
-6)  Crie em  **Taste.DataAccess** as pastas `Initialize` e `Repository` e dentro de `Repository` a pasta `IRepository`.
-7)  De  **Taste.DataAccess** exclua o arquivo `Class1.cs`
-8)  De  **Taste.Models** crie a pasta `ViewModels`
-9)  Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
-10) Acrescentando opção de usar **MVC** no projeto.
 - Altere o `startup.cs` na área de **ConfigureServices** para que fique da seguinte forma:
 ```c#
 public void ConfigureServices(IServiceCollection services)
@@ -91,6 +104,8 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     app.UseMvc();
 }
 ```
+
+9)  Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
 17) Acrescentando os seguintes plugins ao projeto:
 - [jqueryui.com](https://jqueryui.com/).
 - [datatables.net](http://datatables.net/).
