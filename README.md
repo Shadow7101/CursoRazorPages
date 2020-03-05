@@ -12,7 +12,7 @@ Criando projetos:
 
 - Veja [[aqui](https://github.com/Shadow7101/CursoRazorPages/blob/master/01-FrontEnd/Taste.Web/wwwroot/Images/documentos/arquitetura.PNG)] como ficou a arquitetura.
 - Se você esta usando ***Visual Studio Code*** pegue [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki/Criando-projeto-no-Visual-Studio-Code)] os comandos de ***Terminal*** para criar seu projeto.
-- Se você não esta usando o nosso ***VS Code***, da uma boa olhada na arquitetura e exclua as classes *Class1.cs* que são criadas automaticamente para os projetos do tipo *classlibrary*.
+- Se você não esta usando o nosso ***VS Code***, da uma boa olhada na arquitetura e exclua as classes **Class1.cs** que são criadas automaticamente para os projetos do tipo **classlibrary**.
 
 ### Capítulo 2
 
