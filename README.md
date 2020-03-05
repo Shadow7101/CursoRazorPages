@@ -10,7 +10,7 @@ Arquivos do curso de [[RazorPage](https://bhrugen.com/)] da [[Udemy](https://www
 Criando projetos:
 > O sistema esta seguindo a arquitetura **DDD** onde o sistema fica separado em camadas, considerando a camada de FrontEnd (***01-FrontEnd***), onde teremos o projeto Web, geralmente com o no da Solução, seguido de Web (exemplo ***Taste.Web***).
 
-
+Veja [[aqui](https://github.com/Shadow7101/CursoRazorPages/blob/master/01-FrontEnd/Taste.Web/wwwroot/Images/documentos/arquitetura.PNG)] como ficou a arquitetura.
 
 Configurando ambiente:
 
