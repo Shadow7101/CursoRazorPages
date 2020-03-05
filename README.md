@@ -105,6 +105,23 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 }
 ```
 
+### Parte 6
+
+Referenciando os projetos:
+
+> Em qualquer arquitetura evoluida uma aplicação é separada em camadas determinadas, na arquitetura DDD uma máxima é persistente, todas as camadas ***referenciam*** a camada de domínio e a camada de dominio não ***referencia*** ninguem.
+
+ As referências devem ser criadas da seguinte forma:
+ 
+| No projeto abaixo:| Taste.Web  | Taste.Application  | Taste.DataAccess | Taste.Domain |             |
+|-------------------|------------|--------------------|------------------|--------------|-------------|
+| Taste.Web         |            |         X          |        X         |      X       |             |
+| Taste.Application |            |                    |        X         |      X       |             |
+| Taste.DataAccess  |            |                    |                  |      X       |             |
+| Taste.Domain      |            |                    |                  |              |             |
+|-------------------|------------|--------------------|------------------|--------------|-------------|
+
+
 9)  Acesse o site [Bootswatch](https://bootswatch.com) e escolha um tema, e faça o downlaod de `bootstrap.css` desse tema.
 17) Acrescentando os seguintes plugins ao projeto:
 - [jqueryui.com](https://jqueryui.com/).
