@@ -1,5 +1,5 @@
 
 # CursoRazorPages
 
-Arquivos do curso de [[RazorPage](https://bhrugen.com/)] da [[Udemy](https://www.udemy.com/course/advanced-aspnet-core-3-razor-pages)].
-
+* Você pode baixar o projeto pronto.
+* Mais eu recomendo que você crie o seu por esse passo a passo que você acha [[aqui](https://github.com/Shadow7101/CursoRazorPages/wiki)]
